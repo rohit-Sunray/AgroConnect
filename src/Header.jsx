@@ -18,7 +18,7 @@ const Header = ({ currentPage, setCurrentPage, isLoggedIn, onLogout, onLoginClic
             <h1 className="text-xl font-bold">Agritech</h1> */}
             <h1 className="logo" onClick={() => window.location.reload()}>
   <img 
-    src="/favicon/text-logo.png" 
+    src="./favicon/text-logo.png" 
     alt="Logo" 
     style={{ height: 'auto', width: '150px' }} 
   />
