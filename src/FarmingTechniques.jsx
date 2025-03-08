@@ -172,7 +172,7 @@ const FarmingTechniques = () => {
       <div className="bg-white p-6 rounded-xl shadow-md mb-8 flex flex-col md:flex-row items-center gap-6">
         <div className="md:w-1/3 flex justify-center">
           <img
-            src="/src/assets/Book.jpeg"
+            src="/Book.jpeg"
             alt="कृषिमा क्षमता अभिवृद्धि"
             className="h-auto max-h-72 object-contain border border-gray-200 shadow-sm"
           />
@@ -262,7 +262,7 @@ const FarmingTechniques = () => {
           </div>
           <div className="md:w-1/3 bg-white p-4 rounded-lg shadow-sm">
             <img
-              src="/src/assets/PDF.png"
+              src="/PDF.png"
               alt="Agricultural Research Document"
               className="w-30 h-50 mb-3 rounded"
             />
