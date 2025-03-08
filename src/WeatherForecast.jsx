@@ -483,7 +483,7 @@ const WeatherForecast = () => {
         <div className="bg-gray-100 rounded-lg p-8 text-center relative overflow-hidden mb-6">
           <div className="absolute inset-0 bg-gradient-to-r from-purple-100/40 to-blue-100/40"></div>
           <div className="relative">
-            <img src="/src/assets/Weather-Icon.png" alt="Long-term weather forecast" className="mx-auto rounded-lg opacity-40 max-w-full h-20" />
+            <img src="/Weather-Icon.png" alt="Long-term weather forecast" className="mx-auto rounded-lg opacity-40 max-w-full h-20" />
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full">
               <h4 className="text-xl font-bold text-purple-800 mb-2">6-Month Agricultural Forecast</h4>
               <p className="text-gray-700 mb-4">Plan your farming activities with confidence using our 6-month to 1-year weather predictions</p>
