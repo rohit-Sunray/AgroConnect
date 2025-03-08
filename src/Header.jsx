@@ -14,15 +14,13 @@ const Header = ({ currentPage, setCurrentPage, isLoggedIn, onLogout, onLoginClic
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
-            {/* <span className="text-2xl mr-2">🌱</span>
-            <h1 className="text-xl font-bold">Agritech</h1> */}
-            <h1 className="logo" onClick={() => window.location.reload()}>
-  <img 
-    src="/text-logo.png" 
-    alt="Logo" 
-    style={{ height: 'auto', width: '150px' }} 
-  />
-</h1>
+            <h1 className="logo" onClick={() => window.location='#'}>
+              <img 
+                src="/favicon/text-logo.png" 
+                alt="Logo" 
+                style={{ height: 'auto', width: '150px' }} 
+              />
+            </h1>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
@@ -67,6 +65,13 @@ const Header = ({ currentPage, setCurrentPage, isLoggedIn, onLogout, onLoginClic
               onClick={(e) => {e.preventDefault(); setCurrentPage('financial');}}
             >
               Financial Help
+            </a>
+            <a 
+              href="#" 
+              className={`hover:text-green-600 ${currentPage === 'hackathonJourney' ? 'font-bold border-b-2 border-green-600 pb-1' : ''}`}
+              onClick={(e) => {e.preventDefault(); setCurrentPage('hackathonJourney');}}
+            >
+              Our Hackathon Journey
             </a>
           </div>
           
@@ -246,6 +251,20 @@ const Header = ({ currentPage, setCurrentPage, isLoggedIn, onLogout, onLoginClic
                 onClick={(e) => {e.preventDefault(); setCurrentPage('financial'); setIsMobileMenuOpen(false);}}
               >
                 Financial Help
+              </a>
+              <a 
+                href="#" 
+                className={currentPage === 'futureUpdates' ? 'font-bold' : ''}
+                onClick={(e) => {e.preventDefault(); setCurrentPage('futureUpdates'); setIsMobileMenuOpen(false);}}
+              >
+                Future Updates
+              </a>
+              <a 
+                href="#" 
+                className={currentPage === 'hackathonJourney' ? 'font-bold' : ''}
+                onClick={(e) => {e.preventDefault(); setCurrentPage('hackathonJourney'); setIsMobileMenuOpen(false);}}
+              >
+                Our Hackathon Journey
               </a>
               {isLoggedIn ? (
                 <a 

@@ -14,6 +14,8 @@ import ProfileSection from './ProfileSection';
 import ChatWidget from './ChatWidget';
 import LoadingScreen from './LoadingScreen';
 import PricingPage from './PricingPage';
+import HackathonJourney from './HackathonJourney';
+// import FutureUpdates from './FutureUpdates';
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState('home');
@@ -66,6 +68,10 @@ const App = () => {
         return <FinancialHelp />;
       case 'profile':
         return isLoggedIn ? <ProfileSection /> : <LoginPage onLogin={handleLogin} />;
+      case 'hackathonJourney':
+        return <HackathonJourney />;
+      case 'futureUpdates':
+        return <FutureUpdates />;
       default:
         return <HomeContent setCurrentPage={setCurrentPage} />;
     }
