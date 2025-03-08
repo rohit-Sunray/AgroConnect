@@ -4,8 +4,8 @@ const HackathonJourney = () => {
   const teamMembers = [
     {
       name: "Santosh",
-      role: "Full Stack Developer",
-      contribution: "Backend architecture and API development",
+      role: "Product Manager and Presentor",
+      contribution: "API development and Market research / feature prioritization",
       image: "/api/placeholder/100/100",
       quote: "Not every agricultural enthusiast inherits the occupation.",
       social: {
@@ -17,8 +17,8 @@ const HackathonJourney = () => {
     },
     {
       name: "Khem Raj",
-      role: "Frontend Developer",
-      contribution: "UI/UX design and React component development",
+      role: "UI/UX design",
+      contribution: "Frontend Developer and UI/UX Designer",
       image: "/api/placeholder/100/100",
       quote: "Some web fundamentals seem to confuse even those who should guide us.",
       social: {
@@ -30,8 +30,8 @@ const HackathonJourney = () => {
     },
     {
       name: "Bishal",
-      role: "UI/UX Designer",
-      contribution: "Visual design and user experience optimization",
+      role: "Research",
+      contribution: "Researc (Nepal Farming and Agriculture)",
       image: "/api/placeholder/100/100",
       quote: "Sometimes presentations skip over the most crucial elements.",
       social: {
@@ -43,8 +43,8 @@ const HackathonJourney = () => {
     },
     {
       name: "Rohit",
-      role: "Product Manager",
-      contribution: "Market research and feature prioritization",
+      role: "Full Stack Developer",
+      contribution: "Backend architecture",
       image: "/api/placeholder/100/100",
       quote: "Being silenced during explanations teaches patience better than meditation.",
       social: {
@@ -83,13 +83,12 @@ const HackathonJourney = () => {
     <section className="p-4">
       <h2 className="text-2xl font-bold text-gray-800 mb-6">Our Hackathon Journey</h2>
       
- {/* Inside Jokes Section - Only the team will understand */}
-
-<div className="mb-10">
+      {/* Inside Jokes Section - Elegant Green Design */}
+      <div className="mb-10">
         <div className="bg-gradient-to-r from-green-600 to-green-800 rounded-2xl p-1 shadow-lg">
           <div className="bg-gray-900 rounded-xl p-8 text-white">
             <h3 className="text-center text-3xl font-bold mb-8 text-green-400">
-              HACKATHON JOURNAL: UNTOLD STORIES (Inside Humor)
+              HACKATHON JOURNAL: UNTOLD STORIES
             </h3>
             
             <div className="space-y-6">
@@ -211,6 +210,36 @@ const HackathonJourney = () => {
             </div>
           ))}
         </div>
+      </div>
+      
+      {/* Original Hackathon Story */}
+      <div className="bg-gradient-to-r from-green-50 to-blue-50 rounded-xl p-8 mb-10 relative overflow-hidden"> 
+        <div className="absolute top-0 right-0 opacity-10"> 
+          <div className="text-green-600 text-9xl">🚀</div> 
+        </div> 
+        <div className="relative z-10"> 
+          <h3 className="text-3xl font-bold text-green-800 mb-3">Our First 50-Hour Hackathon: From Idea to Innovation 🚀</h3> 
+          <div className="prose max-w-3xl text-gray-700"> 
+            <p> 
+              AgroConnect was born during our first-ever 50-hour hackathon, where our team—<strong>Santosh, Khem Raj, Bishal, and Rohit</strong>—came 
+              together to address the challenges faced by Nepali farmers. With a shared vision of empowering the agricultural community, we combined our 
+              skills to create a solution that bridges traditional farming wisdom with modern technology. 
+            </p> 
+            <p> 
+              Our journey wasn't without its challenges. Despite our hard work and dedication, we couldn't secure the win due to presentation issues. 
+              Unfortunately, we couldn't effectively showcase our main theme and the product we had built to the judges. However, this experience taught 
+              us invaluable lessons in communication, preparation, and the importance of delivering a clear message. 
+            </p> 
+            <p> 
+              The hackathon wasn't just a competition—it was the beginning of something bigger. Even though we didn't win, we walked away with a stronger 
+              bond, improved skills, and a product that has the potential to make a real impact in the lives of farmers. 
+            </p> 
+            <p> 
+              Now, as we deploy AgroConnect on Vercel, we're excited to share our work with the world. Our journey is a testament to the power of resilience, 
+              teamwork, and a vision for change. 
+            </p> 
+          </div> 
+        </div> 
       </div>
       
       {/* The Journey Continues */}
