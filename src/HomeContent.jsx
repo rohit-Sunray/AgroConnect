@@ -51,7 +51,7 @@ const HomeContent = ({ setCurrentPage }) => {
         <div className="md:w-1/2">
           <div className="rounded-full overflow-hidden w-100 h-100 mx-auto">
             <img
-              src="/favicon/logo.png"
+              src="/logo.png"
               alt="Agriculture"
               className="w-full h-full object-cover"
             />

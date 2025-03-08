@@ -57,7 +57,7 @@ const FarmingTechniques = () => {
     {
       id: 1,
       name: "Rice (धान)",
-      image: "/src/assets/rice.jpg",
+      image: "/rice.jpg",
       seasons:
         "Planting: June-July (Asadh-Shrawan); Harvesting: October-November (Kartik-Mangsir)",
       fertilizers:
@@ -68,7 +68,7 @@ const FarmingTechniques = () => {
     {
       id: 2,
       name: "Maize (मकै)",
-      image: "/src/assets/Maize.jpg",
+      image: "/Maize.jpg",
       seasons: "Terai: Feb-April; Hills: March-May; Mountains: April-June",
       fertilizers:
         "NPK 120:60:40 kg/ha. Apply nitrogen in 3 splits for better yield.",
@@ -78,7 +78,7 @@ const FarmingTechniques = () => {
     {
       id: 3,
       name: "Wheat (गहुँ)",
-      image: "/src/assets/wheat.jpg",
+      image: "/wheat.jpg",
       seasons:
         "Planting: November-December (Kartik-Mangsir); Harvesting: March-April (Chaitra-Baisakh)",
       fertilizers:
@@ -89,7 +89,7 @@ const FarmingTechniques = () => {
     {
       id: 4,
       name: "Potato (आलु)",
-      image: "/src/assets/Potatoe.jpg",
+      image: "/Potatoe.jpg",
       seasons:
         "Terai: Oct-Nov; Hills: Feb-March and Sept-Oct; Mountains: March-April",
       fertilizers:
