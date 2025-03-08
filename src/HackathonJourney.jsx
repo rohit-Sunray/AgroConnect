@@ -88,7 +88,7 @@ const HackathonJourney = () => {
         <div className="bg-gradient-to-r from-green-600 to-green-800 rounded-2xl p-1 shadow-lg">
           <div className="bg-gray-900 rounded-xl p-8 text-white">
             <h3 className="text-center text-3xl font-bold mb-8 text-green-400">
-              HACKATHON JOURNAL: UNTOLD STORIES
+              HACKATHON JOURNAL: UNTOLD STORIES (INSIDE HUMOR)
             </h3>
             
             <div className="space-y-6">
